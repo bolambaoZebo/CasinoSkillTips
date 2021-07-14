@@ -14,21 +14,11 @@
 
             <LinearLayout
                 android:id="@+id/headertitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:padding="8dp"
-                android:layout_marginLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@android:color/darker_gray"
                 android:orientation="vertical"
-                >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Master Casino!"
-                    android:textColor="@color/white"
-                    android:textSize="16sp" />
-            </LinearLayout>
+                />
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_below="@+id/headertitle"
                 android:id="@+id/home_recycler"

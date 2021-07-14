@@ -1,3 +1,249 @@
 <resources>
     <string name="app_name">CasinoPokerTis</string>
+
+    <integer-array name="array_image">
+        <item>@drawable/a_pic</item>
+        <item>@drawable/b_pic</item>
+        <item>@drawable/c_pic</item>
+        <item>@drawable/e_pic</item>
+        <item>@drawable/f_pic</item>
+        <item>@drawable/g_pic</item>
+        <item>@drawable/h_pic</item>
+        <item>@drawable/i_pic</item>
+        <item>@drawable/j_pic</item>
+        <item>@drawable/k_pic</item>
+    </integer-array>
+
+    <string-array name="array_content">
+        <item>@string/content1</item>
+        <item>@string/content2</item>
+        <item>@string/content3</item>
+        <item>@string/content4</item>
+        <item>@string/content5</item>
+        <item>@string/content6</item>
+        <item>@string/content7</item>
+        <item>@string/content8</item>
+        <item>@string/content9</item>
+        <item>@string/content10</item>
+    </string-array>
+
+    <string-array name="array_details">
+        <item>@string/detail1</item>
+        <item>@string/detail2</item>
+        <item>@string/detail3</item>
+        <item>@string/detail4</item>
+        <item>@string/detail5</item>
+        <item>@string/detail6</item>
+        <item>@string/detail7</item>
+        <item>@string/detail8</item>
+        <item>@string/detail9</item>
+        <item>@string/detail10</item>
+    </string-array>
+
+    <string name="content1">Get More Rest</string>
+    <string name="content2"> Eat Better and Get Some Exercise</string>
+    <string name="content3">Read a Book</string>
+    <string name="content4">Learn a New Game</string>
+    <string name="content5">Fold More Often</string>
+    <string name="content6">Raise More Often</string>
+    <string name="content7">Play Online</string>
+    <string name="content8">Hire a Coach</string>
+    <string name="content9"> Start a Blog</string>
+    <string name="content10">Make Some Friends</string>
+
+    <string name="detail1">
+        "In today’s fast-paced society, most people undervalue sleep. "
+        "You can eat well and exercise and still get sick and be unsteady just from lack of sleep.\n\n"
+
+        " Furthermore, the broad majority need more rest than they might suspect. They frequently practice helpless rest cleanliness, as well, gazing at phones and sitting in front of the TV not long prior to hitting the sack."
+        "The base measure of rest a grown-up need is 7 hours out of every evening, except 1 out of 3 individuals don't get sufficient rest. Also, that is general society overall."
+
+        "How likely do you think it is that people who gamble a lot get even less sleep than usual?"
+
+        "My guess is that it’s pretty likely, especially if you’re the type of poker player who likes to chase losses—stop chasing losses and get some rest."
+        "On the off chance that you have less than 4 hours of rest, you're similarly just about as hindered as somebody who's lawfully plastered."
+        "I don't think unsteady individuals have a potential for success at a game where judgment and dynamic figure out who will win."
+    </string>
+
+    <string name="detail2">
+        "A solid brain dwells in a sound body. Furthermore, if you need to settle on quality choices, you should have the option to think plainly."
+
+        "Ascertaining pot chances in your mind is sufficiently hard in case you're restless, yet your body is working sub-ideally, you probably won't have the option to pull it off by any stretch of the imagination."
+
+        "The trick to winning at poker consistently is to make quality decisions consistently. This mean you need to be able to pay attention and make correct decisions repeatedly."
+
+        "If you’re playing with someone else, everything else being equal, who eats right and exercises, who’s going to win?"
+
+        "The better player; that is who. "
+
+        "These might seem like weak tips to further develop your poker game, yet in case you're not kidding about your game, you need to adopt an all-encompassing strategy."
+
+        "In Steven Covey's book The 7 Habits of Highly Effective People, he clarifies that Habit #7 is "Hone the Saw.""
+
+        "He recounts the anecdote about the person who has a day to chop down a tree. He recommends that if it were him, he'd go through 7 hours honing the saw so he could chop the tree down in 60 minutes."
+
+        "Practicing and eating right is the best approach to hone the saw and become more compelling."
+    </string>
+
+    <string name="detail3">
+
+        "You're presumably feeling that this is another of those circuitous, comprehensive strategies that you're turning your eyes over. It's not"
+
+        "I'm not recommending that you read simply any book to work at the forefront of your thoughts. "
+
+        "I'm recommending that you read a poker book you haven't read previously. "
+
+        "Be that as it may, don't simply peruse it inactively. Peruse it effectively. "
+
+        "What's dynamic perusing?"
+
+        "That is the point at which you take notes while you're perusing, or underlining remarkable stuff, or utilizing a highlighter. You may even make cheat sheets for certain things you need to recall."
+
+        "Studies have demonstrated that perusing actively builds maintenance drastically. It does nothing but bad to peruse a poker book in case you're not going to recollect that anything from the book."
+
+        "Additionally, it's alright to peruse a helpless poker book, as well. You should peruse basically and warily and ask yourself, is this valid? Does this bode well?"
+
+        "Framing a poker book club where you can talk about the thing you're perusing can be a clever thought, as well. I'll have more to say about setting up an organization of individuals to find out about poker inside a later list item, as well."
+    </string>
+
+    <string name="detail4">
+        "There are various advantages to learning another poker game you haven't played previously. One of these is adequately straightforward: Your mind resembles a muscle. If you don't practice it, it will not get more grounded. "
+
+        "Furthermore, one approach to practice in your mind is to learn new poker games to play."
+
+        "That is not by any means the only advantage, however. There's a logical advantage to learning whatever number of poker games as would be prudent."
+
+        "If you go to a poker game where you have different tables to look over, the more match you realize how to play, the more decisions you have."
+
+        "A ton of times, you can be the best Omaha player at the table. Beginners at the gambling club love to get into games fairs to give them a shot, and if you need to fish, you should bait where the hotshot is."
+
+        "If you are just able to play Texas Holdem, you may be leaving a great deal of cash on the table."
+
+        "At the point when you're playing in home poker games, which are frequently the juiciest around, you'll regularly need to play vendor's decision. On the off chance that you overlap each time you get into a game you don't comprehend, you'll leave a great deal of anticipated worth on the table."
+
+        "To gain proficiency with another poker game or two."
+
+    </string>
+
+    <string name="detail5">
+
+        "I ought to accept that you've perused some poker methodology counsel previously. Assuming you have, you most likely have effectively heard that the best style of play is tight forceful. Playing tight and playing forcefully; are two separate things, incidentally. "
+
+        "What's the significance here to play tight poker?"
+
+        "It means you fold a lot. You only play high quality hands. And if you’re only playing the best possible hands, you are, by necessity, folding more often than you’re used to."
+
+        "Playing too many hands is one of the biggest leaks most poker players have."
+
+        "And it’s not just about folding early in hand, either. You can have a great hand early on and need to fold later in the palm. The other higher leak that players have is taking hands far fair because they started with a monster that didn’t develop well."
+
+        "You’re not at the poker table to play sheriff and keep the other players honest. You’re there to win money."
+
+        "And losing money is the opposite of winning money, and it’s just as damaging to your bankroll."
+
+        "Sure, if you call more often, you’ll catch more people bluffing, but it’s not worth it in the long run."
+    </string>
+
+    <string name="detail6">
+
+        "The second 50% of the condition is less forceful. That directly implies wagering and raising as opposed to checking and calling. There's a very compact advantage to checking or calling. "
+
+        "If you checked, you're simply permitting your adversaries to draw cards that may help them win without taking a chance with any cash to do as such. You should often wager rather than check excluding if you're aiming to overlay later in the palm."
+
+        "Calling doesn’t do much good, either. It just makes it cheaper for your opponents to play against you."
+
+        "And you shouldn’t ignore the fact that some of your profits come from having your opponents fold in the face of your aggression."
+
+        "If you’re playing tight, you should have a better hand than your opponent a lot of the time."
+
+        "But you won’t have a better hand than your opponent every time."
+
+        "That’s fair, not realistic."
+
+        "On the events where they have a superior hand yet crease since you were wagering and raising, you outpace the competition. "
+
+        "The possibility of that incident when you check and call is 0%."
+
+        "Try not to play plenty of hands, yet when you do play a hand, play it solid."
+    </string>
+
+
+    <string name="detail7">
+
+        "Here's not a viable replacement for experience. What's more, getting loads of involvement fast is one approach to speed up your development as a player. You can get in a LOT more hands each hour playing on the web. The usual number of hands each hour you'll see at a live poker table is 30."
+
+        "Yet, on the web, the activity happens quicker with the mix and arrangement take no time by any stretch of the imagination. It's not difficult to get in 80 to 100 hands each hour at an online poker table, which means you're getting 2 to 3 fold the amount of involvement with the table as though you were playing live."
+
+        "However, that is not by any means the only method to speed up your learning."
+
+        "You can do something on the web that is difficult to do in a live poker game: "
+
+        "You can play at various tables simultaneously."
+
+        "Presently you can get in the middle of 160 and 200 hands each hour, and that is by playing 2 tables on the double. "
+
+        "Some online poker experts play 4+ tables all at once."
+
+        "This powers you to play tighter and more forceful, in light of the fact that you will not have the opportunity to act in the event that you engage in such a large number of pots at such a large number of tables."
+
+        "It additionally gives you a superior image of what occurs over the long haul, since you arrive at the since quite a while ago run such a ton quicker."
+    </string>
+
+    <string name="detail8">
+
+        "I've never utilized a mentor for poker, yet I've had tutors, mentors, and instructors help me in different parts of my life. Stringently talking, you can master most abilities on your own nowadays, including poker abilities. Yet, a mentor can assist you with learning."
+
+        "I began taking guitar exercises right around three years prior. I'm not strict about appearing for my movement, but sooner I practice a great deal. I likewise watch a ton of YouTube recordings and instructional exercises. What's more, I have a few books that disclose how to improve at guitar."
+
+        "Nothing makes me work on quicker than getting a guitar exercise, however."
+
+        "Having somebody who can bring up your missteps as they happen can make your abilities develop at multiple times the rate they would something else."
+
+        "Poker mentors aren't modest. You're most likely taking a gander at $200 each hour at least for a good poker guide. "
+
+        "Over the existence of your play, however, in instance you're not kidding about the game, it's very likely awesome."
+
+        "Discovering poker mentors, guides, and coaches online is manageable than any time in recent memory."
+
+    </string>
+
+    <string name="detail9">
+
+        "I suggested dynamic perusing before as an action that will assist you with further developing your poker abilities. One way you can become a more active reader is to write detailed reviews of the poker books you read. You can do this on a blog and perhaps even bring in some cash from the blog by selling publicizing."
+
+        "You better leave the remarks open on your poker blog and welcome conversation. Examining your thoughts as they identify with the idea in the poker books you're perusing can assist you with further developing your game drastically and rapidly."
+
+        "You don't need to compose audits of poker books to profit from having a poker blog, however. You can likewise expound on explicit hands. This will explain you are considering those hands and how you played them. On the off chance that you leave the remarks open, you'll get some criticism to consider, as well—which will likewise work on your game."
+
+        "You likely recall that I referenced Steven Covey and his 7 Habits prior. In a portion of his books, he's credentials that perhaps the most ideal detain to learn something is to instruct it to another person. He proposes adopting that strategy to perusing his books."
+
+        "Utilize your new poker blog as a chance to show solitary, and everybody wins."
+
+    </string>
+
+    <string name="detail10">
+
+        "I've seen individuals propose framing a poker study bunch, and that is one approach to improve. In any case, that is by all accounts not the only method to utilize companions to further evolve your poker game."
+
+        "Quite a while back, when I was playing in the underground cardrooms in Dallas, I had two companions I played with consistently—Larry and Todd. I generally had somebody whom I could examine sure hands after we changed out and went to Dennys."
+
+        "Those late-night talks did a great deal to work on my range of abilities multiply. "
+
+        "One model identifies with mentality even so much it identifies with explicit abilities, as well. One night Todd and I were playing with an honestly youthful player, and I communicated some dismay that we were taking cash from somebody who was a child."
+
+        "Todd brought up personally that I didn't compel that child to take a seat at the table or give him cash to play. Somebody planned to win his money, so it should be me."
+
+        "That may have been the main exercise I at any point learned in poker—don't feel sorry for your rivals."
+
+        "Conclusion"
+
+        "Further developing your poker abilities can help you win more cash, and you can further develop your abilities quicker than you may suspect."
+
+        "A few methods for further developing your game can be pretty much as basic as improving night's rest this evening. Eating right and getting more exercise can help, as well."
+
+        "More explicit procedures incorporate understanding books, examining them, and expounding on your game."
+
+    </string>
+
+
 </resources>

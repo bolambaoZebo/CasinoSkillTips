@@ -16,7 +16,7 @@
                 android:id="@+id/headertitle"
                 android:layout_width="match_parent"
                 android:layout_height="0.1dp"
-                android:background="@android:color/darker_gray"
+                android:background="@color/home_background"
                 android:orientation="vertical"
                 />
             <androidx.recyclerview.widget.RecyclerView
@@ -24,20 +24,30 @@
                 android:id="@+id/home_recycler"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/home_background"
+                android:background="@color/black"
                 android:layout_centerInParent="true"
                 android:paddingHorizontal="8dp"
-                android:paddingTop="35dp"
+                android:paddingTop="20dp"
                 tools:itemCount="8"
                 tools:listitem="@layout/home_cardview" />
 
             <!--                android:background="@drawable/home_footer"-->
 
+           <ImageView
+               android:id="@+id/try_luck_image"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:src="@drawable/try_your_luck"
+               android:layout_below="@+id/home_recycler"
+               android:padding="12dp"
+               />
+
             <LinearLayout
+                android:id="@+id/bottom_layout"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginTop="12dp"
-                android:layout_below="@+id/home_recycler"
+                android:layout_below="@+id/try_luck_image"
                 android:orientation="horizontal"
                 android:padding="8dp"
                 android:gravity="center"
@@ -61,6 +71,32 @@
                     android:layout_height="50dp"
                     android:layout_weight="1"
                     android:src="@drawable/add3"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="12dp"
+                android:layout_below="@+id/bottom_layout"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:id="@+id/we_bet22"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/add5"/>
+                <ImageView
+                    android:id="@+id/we_horse2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/add6"/>
                 <ImageView
                     android:id="@+id/probit_horse"
                     android:layout_width="50dp"

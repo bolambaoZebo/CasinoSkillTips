@@ -2,9 +2,9 @@
     <string name="app_name">CasinoPokerTis</string>
 
     <integer-array name="array_image">
-        <item>@drawable/a_pic</item>
         <item>@drawable/b_pic</item>
         <item>@drawable/c_pic</item>
+        <item>@drawable/a_pic2</item>
         <item>@drawable/e_pic</item>
         <item>@drawable/f_pic</item>
         <item>@drawable/g_pic</item>
@@ -50,6 +50,13 @@
     <string name="content8">Hire a Coach</string>
     <string name="content9"> Start a Blog</string>
     <string name="content10">Make Some Friends</string>
+
+    <string name="header_content">
+        "It’s been clearly established by now that poker is a game of skill as well as a game of chance. Since there’s a skill element, the player who’s more skilled will win more money in the long run. "
+        "So if you want to win more money at poker, the trick is to improve your skills."
+        "That’s easy to say, but how do you actually pull that off?"
+        "This post includes ten different ways to improve your poker skills."
+    </string>
 
     <string name="detail1">
         "In today’s fast-paced society, most people undervalue sleep. "

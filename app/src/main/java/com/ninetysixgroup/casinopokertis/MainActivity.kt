@@ -3,13 +3,24 @@ package com.ninetysixgroup.casinopokertis
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.view.ViewTreeObserver
 import android.widget.Toast
+import androidx.core.view.isVisible
+import androidx.core.widget.NestedScrollView
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.android.material.appbar.AppBarLayout
 import com.ninetysixgroup.casinopokertis.model.PokerModel
 import kotlinx.android.synthetic.main.activity_content.*
+import kotlinx.android.synthetic.main.activity_main.*
+import java.lang.Math.abs
 
 class MainActivity : AppCompatActivity(), RecyclerPoker.onItemClicked {
+
+    private var shortAnimationDuration: Int = 0
+    private lateinit var bottomModalFragment: BottomModalFragment
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -21,6 +32,61 @@ class MainActivity : AppCompatActivity(), RecyclerPoker.onItemClicked {
         )
 
         home_recycler.adapter = RecyclerPoker(this,getAllRacing(), this)
+
+        header_title_withanimation.visibility = View.GONE
+
+        app_bar.addOnOffsetChangedListener(AppBarLayout.OnOffsetChangedListener{ appBarLayout, verticalOffset ->
+                if (abs(verticalOffset) - appBarLayout.totalScrollRange == 0) {
+                    header_title_withanimation.apply {
+                        visibility = View.VISIBLE
+
+                        animate()
+                            .alpha(1f)
+                            .setDuration(shortAnimationDuration.toLong())
+                            .setListener(null)
+
+                    }
+
+                } else if (abs(verticalOffset) == 0) {
+                    header_title_withanimation.apply {
+                        alpha = 0f
+                        visibility = View.GONE
+
+                        animate()
+                            .alpha(1f)
+                            .setDuration(shortAnimationDuration.toLong())
+                            .setListener(null)
+                    }
+                } else {
+                    // Idle
+                }
+          }
+        )
+// LISTENER FOR NESTED SCROLLING
+
+//        nested_view.setOnScrollChangeListener(
+//            NestedScrollView.OnScrollChangeListener {
+//                    _, scrollX, scrollY, _, oldScrollY ->
+
+//                if(scrollY > 1){
+////                    header_title_withanimation.isVisible = true
+////                    header_title_withanimation.visibility = View.VISIBLE
+//
+//                    header_title_withanimation.apply {
+//                        alpha = 0f
+//                        visibility = View.VISIBLE
+//
+//                        animate()
+//                            .alpha(1f)
+//                            .setDuration(shortAnimationDuration.toLong())
+//                            .setListener(null)
+//
+//                    }
+//
+//                } else if(scrollY == 0){
+//                    header_title_withanimation.visibility = View.GONE
+//                }
+//            })
 
     }
 
@@ -46,6 +112,14 @@ class MainActivity : AppCompatActivity(), RecyclerPoker.onItemClicked {
     }
 
     override fun onClickedTips(content: String) {
-        Toast.makeText(this, content, Toast.LENGTH_SHORT).show()
+        bottomModalFragment = BottomModalFragment()
+//        bottomModalFragment.updateValues("content")
+        val bundle = Bundle()
+        bundle.putString("content", content);
+        bottomModalFragment.arguments = bundle;
+        bottomModalFragment.show(supportFragmentManager, "BottomSheetDialog")
+
     }
+
+
 }
